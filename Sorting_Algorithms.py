@@ -44,16 +44,80 @@
 ##print(Q)
 
 
-def InsertionSort(A):
-    for i in range(0,len(A)):
-        k = A[i]
-        j = i-1
-        while(j>=0 and A[j]>k):
-            A[j+1] = A[j]
-            j = j-1
-        A[j+1] = k
-    return A
+##def InsertionSort(A):
+##    for i in range(0,len(A)):
+##        k = A[i]
+##        j = i-1
+##        while(j>=0 and A[j]>k):
+##            A[j+1] = A[j]
+##            j = j-1
+##        A[j+1] = k
+##    return A
+##
+##S = [4,6,9,8,2]
+##Q = InsertionSort(S)
+##print(Q)
 
-S = [4,6,9,8,2]
-Q = InsertionSort(S)
-print(Q)
+
+##def mergeSort(A):
+##    if len(A)>1:
+##        mid = len(A)//2
+##        left = A[:mid]
+##        right = A[mid:]
+##
+##        mergeSort(left)
+##        mergeSort(right)
+##        i=j=k=0       
+##        while i < len(left) and j < len(right):
+##            if left[i] < right[j]:
+##                A[k]=left[i]
+##                i=i+1
+##            else:
+##                A[k]=right[j]
+##                j=j+1
+##            k=k+1
+##
+##        while i < len(left):
+##            A[k]=left[i]
+##            i=i+1
+##            k=k+1
+##
+##        while j < len(right):
+##            A[k]=right[j]
+##            j=j+1
+##            k=k+1
+##    
+##
+##A = [14,46,43,27,57,41,45,21,70]
+##mergeSort(A)
+##print(A)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
